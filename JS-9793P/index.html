@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="attention">
+            <p class="paragraphA" >Çalışmaya başladığınızdan beri telefonunuz <span class="numberA" id="number">0</span> kere dikkatinizi dağıttı!</p>
+    
+            <button id="button" type="button" class="btn buttonA btn-outline-danger">ARTTIR</button>
+        </div>
+
+        <!-- MUSIC PLAYER START -->
+        <div class="h1 text-center">
+            <h6 class="muted">MUSIC PLAYER</h6>
+            <div class="music-player-1">
+                
+                <audio id="myAudio">
+                        <source src="mp3/piano1.mp3" type="audio/mp3">
+                </audio>
+                
+                <button style="padding: 0 60px;" class="btn btn-outline-danger" id="playButton">Play</button>
+                <button style="padding: 0 60px;" class="btn btn-outline-danger" id="pauseButton">Stop</button>
+            </div>
+            <div class="music-player-2"> 
+                <audio id="myAudio2">
+                    <source src="mp3/piano2.mp3" type="audio/mp3">
+                </audio>
+
+                <button style="padding: 0 60px;" class="btn btn-outline-danger" id="playButton2">Play</button>
+                <button style="padding: 0 60px;" class="btn btn-outline-danger" id="pauseButton2">Stop</button>
+                
+            </div>
+        </div>
+        <h2 class="informationH text-center mt-5">Dikkat Arttırma Yöntemleri</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="col-md-6">1 - Önceliklerinizi Belirleyin</h4>
+                    <p>Yapmak istediğimiz çok şey var, zaman ise sınırlı. Zihnimizde aynı anda pek çok şey koştururken, sorumluluklar ve zorunluluklarımız ile tek bir konuya odaklanmak kolay olmuyor. İlk adım olarak yapmak istediklerinizi bir liste haline getirin. Daha sonra bu listede 5 maddeyi seçin ve aralarında sıralama yapın. Bu şekilde kendinize bir yol haritası çıkartmış olacaksınız. Bir madde bitmeden diğerine de geçmemek için bu plana sadık kalmalısınız.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="col-md-6">2 - Nefesinizi Kontrol Edin</h4>
+                    <p>Nefes alıp vermek hayati bir fonksiyonumuz. Gün içinde nasıl nefes alıp vermemiz gerektiğini unutuyoruz. Heyecan, stres, beslenme, iş yoğunluğu gibi her şey nefesimizi etkiliyor. Odaklanmak istediğimiz konuyu önümüze aldığımız zaman nefes alıp vermemizi kontrol etmeliyiz. Hatta daha işe başlamadan önce burundan nefes alıp, vermeye çalışın. Sayarak nefes alın ve aynı sayıda da nefesinizi verin. Bu şekilde sakinlik ve dinginlik ile konsantrasyon sağlamanız daha kolay olacaktır.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="col-md-6">3 - Olumsuz Bilgileri Temizleyin</h4>
+                    <p>Yapmanız gereken işle ilgili zihninizi temiz tutun. Bitirmek istediğiniz, yapmak istediğiniz, öğrenmek istediğiniz konulara başlamadan önce aklınızda olumsuz ne kadar bilgi varsa hepsini temizleyin. Amacınıza odaklanın ve olumsuz kalıplarınızı bir kenara bırakmaya çalışın. Ne düşünüyorsanız zihniniz o bilgileri büyütüyor. Bu yüzden odaklanmak için seçtiğiniz konu öncesinde bir temizliğe girin ve zihninizi berraklaştırın.</p>
+                </div>
+                <div class="col-md-6">  
+                    <h4 class="col-md-6">4 - Konsantrasyon Müzikleri Dinleyin</h4>
+                    <p>Müzik, çeşitli tarzlarıyla herkese hitap edecek yapıda evrensel ve çok yönlü bir etkiye sahip olduğu için, günlük yaşamda yapmak istediğimiz bütün aktiviteler karşısında odaklanmamızı kolaylaştırıyor. Aynı zamanda yaşadığımız anlardan keyif almayı ve kaliteli zaman geçirmenizi de sağlıyor. Ayrıca duygu ve düşüncelerimizi konuşma dışında anlatabilmemizin ve kendimizi ifade edebilmenin başka bir yoludur müzik.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+    
+<!-- 
+    
+
+    
+
+
+
+
+ -->
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
